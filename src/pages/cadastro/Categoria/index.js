@@ -24,7 +24,7 @@ function CadastroCategoria(){
     }
 
     function handleChange(infosDoEvent) {
-      let {name,value} = infosDoEvent.target;
+      const {name,value} = infosDoEvent.target;
       setValue(
         name,
         value
